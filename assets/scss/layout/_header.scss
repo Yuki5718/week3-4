@@ -6,9 +6,12 @@
   }
   
   ul {
-    margin: 0 -12px;
+    margin-right: -12px;
+    margin-left: -12px;
     flex-wrap:wrap;
     @media (min-width: 576px) {
+      margin-right: 0;
+      margin-left: 0;
       justify-content: center;
       flex-wrap:nowrap;
       gap: 1.5rem;

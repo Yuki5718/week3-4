@@ -34,7 +34,9 @@
 }
 
 .product-nav a {
-    font-size: 1.5rem;
+    @media (min-width:576px) {
+        font-size: 1.5rem;
+    }
     @media (min-width:768px) {
         font-size: 2rem;
     }
@@ -48,4 +50,13 @@
 
 .product-nav li {
     border: 1px solid #DCDCDC;
+}
+
+.product-nav ul {
+    margin-right: -12px;
+    margin-left: -12px;
+    @media (min-width: 576px) {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
